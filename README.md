@@ -13,14 +13,9 @@
 
 The dataset is designed to support two evaluation objectives:
 
-1. **Behavioral analysis** of RAG systems under grounded versus adversarial query conditions, with a focus on answer relevance and faithfulness
-2. **Metric sufficiency analysis** — specifically, whether aggregate faithfulness scores are sufficient to detect RAG failure on adversarial queries
-
-This dataset accompanies two research papers currently in preparation:
-
-> *Ardiansyah, R. et al. (in prep.). Perilaku Sistem Fusion-RAG pada Query Grounded dan Adversarial: Analisis Empiris pada Dokumen Institusional Berbahasa Indonesia.* [Target: Sinta 2]
-
-> *Ardiansyah, R. et al. (in prep.). Are Faithfulness Metrics Sufficient for RAG Evaluation? Evidence from Adversarial Query Analysis on Indonesian Institutional Documents.* [Target: Scopus Q3]
+1. **Behavioral analysis** of a Fusion - RAG system under grounded versus adversarial query conditions — examining how query type affects answer relevance, faithfulness, and refusal behavior on Indonesian institutional documents
+2. **Evaluation framework critique** — providing empirical evidence for the inadequacy of aggregate faithfulness metrics as a sole evaluation signal, and motivating a three-dimensional framework (response type + faithfulness score + refusal calibration)
+3. **Foundation for failure pattern analysis** — the grounded/adversarial split and difficulty taxonomy in this dataset are designed to support downstream mapping of query ambiguity to retrieval, fusion, and generation failure points 
 
 ---
 
@@ -233,7 +228,7 @@ If you use this dataset, please cite:
 
 ```bibtex
 @dataset{ardiansyah2025untadrageval,
-  author    = {Ardiansyah, Rizka and Angreni, Dwi Shinta and Saputra, Sabarudin and Hernita, Ayu and Mustari, Aidynal},
+  author    = {Rizka Ardiasnyah, Amanda B Maritza, Afiyah Rahmikha, Khairunnisa Lamasitudju},
   title     = {{UNTAD-RAG-Eval}: A Grounded and Adversarial Query Dataset for RAG Evaluation on Indonesian Institutional Documents},
   year      = {2026},
   publisher = {GitHub},
