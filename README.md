@@ -11,7 +11,7 @@
 
 **UNTAD-RAG-Eval** is a bilingual-labeled, domain-specific evaluation dataset for Retrieval-Augmented Generation (RAG) systems operating on Indonesian institutional documents. The dataset consists of **170 queries** — 110 grounded (answerable) and 60 adversarial (unanswerable) — derived from five official documents of Universitas Tadulako (UNTAD), Palu, Indonesia.
 
-The dataset is designed to support two evaluation objectives:
+The dataset is designed to support the following research objectives:
 
 1. **Behavioral analysis** of a Fusion - RAG system under grounded versus adversarial query conditions — examining how query type affects answer relevance, faithfulness, and refusal behavior on Indonesian institutional documents
 2. **Evaluation framework critique** — providing empirical evidence for the inadequacy of aggregate faithfulness metrics as a sole evaluation signal, and motivating a three-dimensional framework (response type + faithfulness score + refusal calibration)
