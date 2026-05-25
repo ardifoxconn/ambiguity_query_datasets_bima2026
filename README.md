@@ -227,7 +227,7 @@ This dataset should not be used as a general-purpose Indonesian QA benchmark. Th
 If you use this dataset, please cite:
 
 ```bibtex
-@dataset{ardiansyah2025untadrageval,
+@dataset{ardiansyah2026untadrageval,
   author    = {Rizka Ardiasnyah, Amanda B Maritza, Afiyah Rahmikha, Khairunnisa Lamasitudju},
   title     = {{UNTAD-RAG-Eval}: A Grounded and Adversarial Query Dataset for RAG Evaluation on Indonesian Institutional Documents},
   year      = {2026},
