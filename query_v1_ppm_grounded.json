@@ -1,0 +1,516 @@
+[
+    {
+    "query_id": "PPM-G-001",
+    "query": "Berapa jumlah skema penelitian yang diselenggarakan oleh LPPM Untad pada tahun 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV Skema Penelitian",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "LPPM Untad menyelenggarakan 5 skema penelitian pada tahun 2025, yaitu penelitian pembinaan, penelitian unggulan, penelitian inovasi produktif, penelitian kerjasama, dan penelitian mandiri.",
+    "expected_key_facts": [
+      "5 skema penelitian",
+      "pembinaan",
+      "unggulan",
+      "inovasi produktif",
+      "kerjasama",
+      "mandiri"
+    ]
+  },
+  {
+    "query_id": "PPM-G-002",
+    "query": "Berapa jumlah skema pengabdian kepada masyarakat yang tersedia di LPPM Untad 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB V Skema Pengabdian",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Terdapat 3 skema pengabdian kepada masyarakat di LPPM Untad 2025, yaitu program produk unggulan daerah, program diseminasi hasil penelitian, dan program pengabdian mandiri.",
+    "expected_key_facts": [
+      "3 skema pengabdian",
+      "produk unggulan daerah",
+      "diseminasi hasil penelitian",
+      "pengabdian mandiri"
+    ]
+  },
+  {
+    "query_id": "PPM-G-003",
+    "query": "Kapan batas akhir pemasukan proposal penelitian yang akan didanai tahun 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "Tabel 2.1 Jadwal Tentatif",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Batas akhir pemasukan proposal penelitian yang akan didanai tahun 2025 adalah 10 Maret 2025.",
+    "expected_key_facts": [
+      "10 Maret 2025",
+      "batas akhir pemasukan proposal"
+    ]
+  },
+  {
+    "query_id": "PPM-G-004",
+    "query": "Kapan penandatanganan kontrak penelitian dilakukan menurut jadwal tentatif PPM 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "Tabel 2.1 Jadwal Tentatif",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Penandatanganan kontrak penelitian dan pengabdian kepada masyarakat dilakukan pada 28-29 April 2025.",
+    "expected_key_facts": [
+      "28 April 2025 s.d. 29 April 2025",
+      "penandatanganan kontrak"
+    ]
+  },
+  {
+    "query_id": "PPM-G-005",
+    "query": "Apa yang dimaksud dengan skema Penelitian Pembinaan menurut Panduan PPM Untad 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.1 Penelitian Pembinaan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Penelitian Pembinaan adalah program penelitian yang dimaksudkan untuk membina dan mengarahkan para peneliti pemula agar meningkatkan kemampuannya dalam melaksanakan penelitian di perguruan tinggi.",
+    "expected_key_facts": [
+      "membina peneliti pemula",
+      "meningkatkan kemampuan meneliti",
+      "skema kompetitif"
+    ]
+  },
+  {
+    "query_id": "PPM-G-006",
+    "query": "Apa yang dimaksud dengan Penelitian Inovasi Produktif dan apa fokus utamanya?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.3 Penelitian Inovasi Produktif",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Penelitian Inovasi Produktif adalah skema penelitian yang dimaksudkan untuk meningkatkan produktivitas peneliti Untad agar menghasilkan produk inovatif yang berkualitas, bermutu, bernilai komersil, dan bermanfaat bagi masyarakat. Fokus utamanya adalah pada produk penelitian yang inovatif, aplikatif, komersil, dan berkelanjutan pada tema seperti pengolahan sampah, pangan, kesehatan, energi terbarukan, TIK, pariwisata, sosial humaniora, seni budaya, pendidikan, dan kebencanaan.",
+    "expected_key_facts": [
+      "produk inovatif bernilai komersil",
+      "lanjutan dari skema unggulan",
+      "TRL minimal level 5",
+      "fokus tema: pangan, kesehatan, TIK, energi, pariwisata dll"
+    ]
+  },
+  {
+    "query_id": "PPM-G-007",
+    "query": "Apa yang dimaksud dengan Program Pengabdian Mandiri dalam panduan PPM Untad 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB V, 5.3 Program Pengabdian Mandiri",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Program Pengabdian Mandiri adalah program pengabdian yang dilaksanakan atas permintaan sekelompok masyarakat tertentu atau berdasarkan hasil observasi peneliti, yang memerlukan informasi atau bimbingan teknis untuk menyelesaikan persoalan yang dihadapi masyarakat. Dana sepenuhnya bersumber dari dosen pelaksana.",
+    "expected_key_facts": [
+      "atas permintaan masyarakat atau inisiatif pengabdi",
+      "dana mandiri dosen",
+      "termasuk kegiatan di sekolah atas permintaan guru/kepala sekolah"
+    ]
+  },
+  {
+    "query_id": "PPM-G-008",
+    "query": "Apa yang dimaksud dengan Sipenaemas dan kapan sistem ini diluncurkan?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB III, 3.1 Pendahuluan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Sipenaemas adalah Sistem Informasi Manajemen Penelitian dan Pengabdian Masyarakat Untad. Sistem ini resmi diluncurkan pada Senin, 03 Februari 2020 di Gedung LPPM Untad.",
+    "expected_key_facts": [
+      "Sistem Informasi Manajemen Penelitian dan Pengabdian Masyarakat",
+      "diluncurkan 03 Februari 2020",
+      "URL: sipenaemas.untad.ac.id"
+    ]
+  },
+  {
+    "query_id": "PPM-G-009",
+    "query": "Apa saja tahapan pengelolaan penelitian dan pengabdian kepada masyarakat di Untad menurut panduan 2025?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II, 2.2 Tahapan Pengelolaan",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Tahapan pengelolaan penelitian dan pengabdian kepada masyarakat di Untad terdiri dari 9 tahap, yaitu: (1) pengumuman, (2) pengusulan melalui Sipenaemas, (3) seleksi/review, (4) penetapan/pengumuman pemenang, (5) revisi proposal, (6) pelaksanaan, (7) pengawasan, (8) pelaporan, dan (9) penilaian hasil penelitian dan pengabdian kepada masyarakat.",
+    "expected_key_facts": [
+      "9 tahapan",
+      "pengumuman",
+      "pengusulan",
+      "seleksi/review",
+      "penetapan",
+      "revisi proposal",
+      "pelaksanaan",
+      "pengawasan",
+      "pelaporan",
+      "penilaian hasil"
+    ]
+  },
+  {
+    "query_id": "PPM-G-010",
+    "query": "Bagaimana prosedur pengusul mendaftarkan akun Sipenaemas jika belum memiliki NIDN?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB III, 3.2 Pendaftaran Akun Sipenaemas",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Dosen yang belum memiliki NIDN harus melampirkan surat permohonan pembuatan akun dari fakultas yang ditandatangani Dekan untuk mendaftarkan akun Sipenaemas.",
+    "expected_key_facts": [
+      "surat permohonan dari fakultas",
+      "ditandatangani Dekan",
+      "untuk dosen tanpa NIDN"
+    ]
+  },
+  {
+    "query_id": "PPM-G-011",
+    "query": "Bagaimana cara mengupload laporan kemajuan penelitian di Sipenaemas?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB III, 3.3.4 Upload Laporan Kemajuan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Untuk mengupload laporan kemajuan di Sipenaemas, pengusul login, pilih Menu Dokumen dan Sub Dokumen Laporan Kemajuan, klik Tombol New, pilih proposal terkait (tidak diisi manual), lengkapi field yang kosong, upload draft luaran yang dijanjikan, upload dokumen laporan kemajuan dalam format PDF, lalu klik Simpan.",
+    "expected_key_facts": [
+      "login Sipenaemas",
+      "Menu Dokumen > Sub Dokumen Laporan Kemajuan",
+      "klik Tombol New",
+      "pilih proposal terkait",
+      "upload draft luaran",
+      "upload laporan PDF",
+      "klik Simpan"
+    ]
+  },
+  {
+    "query_id": "PPM-G-012",
+    "query": "Apa saja komponen Laporan Pertanggungjawaban Keuangan penelitian menurut susunan yang ditetapkan panduan PPM 2025?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB VI, 6.4.1",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Susunan Laporan Pertanggungjawaban Keuangan mencakup: halaman sampul, halaman pengesahan dari Sipenaemas, laporan penggunaan dana 70% tahap I dan 30% tahap II, berita acara serah terima laporan, rekapitulasi penggunaan anggaran/SPTB yang ditandatangani Kepala LPPM dan ketua peneliti, hardcopy laporan ke pengelola, serta bukti-bukti/nota pengeluaran berupa kwitansi asli yang telah diverifikasi tim LPPM.",
+    "expected_key_facts": [
+      "halaman sampul dan pengesahan",
+      "laporan dana 70% tahap I dan 30% tahap II",
+      "berita acara serah terima",
+      "rekapitulasi SPTB",
+      "kwitansi asli terverifikasi LPPM"
+    ]
+  },
+  {
+    "query_id": "PPM-G-013",
+    "query": "Bagaimana prosedur seleksi proposal penelitian dilakukan oleh LPPM Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II, 2.2.3 Tahap Seleksi/Review",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Seleksi proposal dilakukan dalam 2 tahap: pertama, penilaian kelengkapan administrasi termasuk RAB dan pemenuhan publikasi tiga tahun terakhir oleh panitia; kedua, review substansi rencana penelitian oleh tim penilai/reviewer yang ditugaskan LPPM. Hasil review dari LPPM diserahkan ke fakultas untuk penentuan pengumuman penerimaan pendanaan.",
+    "expected_key_facts": [
+      "2 tahap seleksi",
+      "tahap 1: kelengkapan administrasi dan RAB",
+      "tahap 2: review substansi oleh reviewer LPPM",
+      "hasil review diserahkan ke fakultas"
+    ]
+  },
+  {
+    "query_id": "PPM-G-014",
+    "query": "Apa saja persyaratan pengusul untuk Skema Penelitian Unggulan Untad 2025?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.2.5 Persyaratan Pengusul",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Persyaratan pengusul Penelitian Unggulan: (a) ketua berpendidikan S3 dengan minimal jabatan asisten ahli, atau S2 dengan jabatan minimal lektor; (b) tidak memiliki tunggakan luaran 3 tahun sebelumnya; (c) tidak pernah mendapat dana kompetisi nasional/internasional 2 tahun berturut-turut (2023 dan 2024); (d) memiliki rekam jejak publikasi minimal satu artikel di jurnal nasional Sinta 1-4 sebagai penulis pertama/corresponding author; (e) SINTA score minimal 150 bidang Saintek atau 75 bidang Sosial Humaniora; (f) anggota minimal 2 orang dan melibatkan mahasiswa minimal 3 orang.",
+    "expected_key_facts": [
+      "S3 min asisten ahli atau S2 min lektor",
+      "tidak ada tunggakan luaran 3 tahun",
+      "tidak dapat dana kompetisi nasional 2 tahun berturut-turut",
+      "rekam jejak publikasi Sinta 1-4",
+      "SINTA score min 150 Saintek / 75 Soshum",
+      "anggota min 2 dosen + min 3 mahasiswa"
+    ]
+  },
+  {
+    "query_id": "PPM-G-015",
+    "query": "Berapa skor SINTA minimum untuk ketua pengusul Skema Penelitian Inovasi Produktif bidang Saintek?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.3.5 Persyaratan Pengusul",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Skor SINTA minimum untuk ketua pengusul Skema Penelitian Inovasi Produktif bidang Saintek adalah 300.",
+    "expected_key_facts": [
+      "SINTA score minimum 300",
+      "bidang Saintek",
+      "Penelitian Inovasi Produktif"
+    ]
+  },
+  {
+    "query_id": "PPM-G-016",
+    "query": "Apakah dosen yang sedang tugas belajar diperbolehkan mengusulkan penelitian yang didanai oleh Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II, 2.1 Ketentuan Umum poin b",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Tidak. Dosen yang sedang tugas belajar tidak diperkenankan mengusulkan penelitian dan/atau pengabdian kepada masyarakat yang didanai oleh Untad, baik sebagai ketua maupun sebagai anggota.",
+    "expected_key_facts": [
+      "tidak diperkenankan",
+      "berlaku untuk ketua maupun anggota",
+      "Pasal 2.1 poin b"
+    ]
+  },
+  {
+    "query_id": "PPM-G-017",
+    "query": "Berapa kali maksimal seorang ketua pengusul mendapatkan pendanaan DIPA Untad pada skema yang sama sejak tahun 2021?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II, 2.1 Ketentuan Umum poin g",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Setiap ketua pengusul hanya boleh mendapatkan pendanaan dari DIPA Untad maksimal sebanyak 4 kali pada skema yang sama sejak tahun 2021.",
+    "expected_key_facts": [
+      "maksimal 4 kali",
+      "skema yang sama",
+      "dihitung sejak tahun 2021"
+    ]
+  },
+  {
+    "query_id": "PPM-G-018",
+    "query": "Apa saja luaran wajib dari Skema Penelitian Pembinaan Untad 2025?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.1.3 Luaran Penelitian",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Luaran wajib Penelitian Pembinaan adalah: (1) publikasi ilmiah minimal pada jurnal nasional terakreditasi SINTA 3-4, dan (2) pengayaan bahan ajar dengan menyertakan nama mata kuliah yang bersesuaian. Luaran tambahan yang diharapkan adalah prosiding pada seminar ilmiah lokal, regional, nasional, atau internasional.",
+    "expected_key_facts": [
+      "publikasi di jurnal nasional terakreditasi Sinta 3-4",
+      "pengayaan bahan ajar beserta nama mata kuliah",
+      "luaran tambahan: prosiding seminar"
+    ]
+  },
+  {
+    "query_id": "PPM-G-019",
+    "query": "Berapa besaran dana Penelitian Unggulan yang mengharuskan luaran berupa artikel di Scopus/WoS atau Sinta 1?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.2.3 Luaran Penelitian poin b",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Dana Penelitian Unggulan antara Rp 35.000.000 hingga Rp 50.000.000 per judul per tahun mengharuskan luaran wajib berupa satu artikel di jurnal internasional yang terindeks pada basis data bereputasi (Scopus/WoS) atau jurnal terindeks Sinta 1.",
+    "expected_key_facts": [
+      "dana Rp 35.000.000 s.d. Rp 50.000.000",
+      "luaran: jurnal Scopus/WoS atau Sinta 1"
+    ]
+  },
+  {
+    "query_id": "PPM-G-020",
+    "query": "Seorang dosen berpendidikan S3 dengan jabatan Lektor ingin mengusulkan Penelitian Unggulan. Apakah ia memenuhi persyaratan pengusul?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.2.5 poin a",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 4.2.5, ketua tim pengusul Penelitian Unggulan harus berpendidikan S3 dengan minimal jabatan fungsional asisten ahli, atau berpendidikan S2 dengan jabatan fungsional minimal lektor. Dosen S3 berjabatan Lektor memenuhi syarat pertama (S3 dengan jabatan di atas asisten ahli), sehingga ia memenuhi persyaratan tersebut.",
+    "expected_key_facts": [
+      "S3 dengan min jabatan asisten ahli terpenuhi karena jabatan Lektor lebih tinggi",
+      "syarat pendidikan dan jabatan terpenuhi",
+      "masih perlu cek syarat lain: tunggakan luaran, SINTA score, rekam jejak publikasi"
+    ]
+  },
+  {
+    "query_id": "PPM-G-021",
+    "query": "Berapa jumlah minimal mahasiswa yang harus dilibatkan dalam Skema Penelitian Pembinaan?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV, 4.1.4 poin e",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan ketentuan Skema Penelitian Pembinaan poin (e), anggota tim peneliti minimal 1 orang dan wajib melibatkan mahasiswa minimal 1 orang yang dapat direkognisi dengan mata kuliah sesuai program studinya berdasarkan aturan MBKM.",
+    "expected_key_facts": [
+      "minimal 1 mahasiswa",
+      "dapat direkognisi minimal 10 SKS",
+      "berdasarkan aturan MBKM"
+    ]
+  },
+  {
+    "query_id": "PPM-G-022",
+    "query": "Apakah laporan keuangan PPM Untad 2025 harus mengacu pada PMK Nomor 49 tahun 2023?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB VI, 6.3 dan 6.4.2",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Ya. Panduan PPM 2025 secara eksplisit menyatakan bahwa pertanggungjawaban keuangan harus mengacu pada Peraturan Menteri Keuangan (PMK) Republik Indonesia Nomor 49 tahun 2023 tentang Standar Biaya Masukan Tahun Anggaran 2025.",
+    "expected_key_facts": [
+      "ya, disebutkan eksplisit",
+      "PMK Nomor 49 tahun 2023",
+      "Standar Biaya Masukan Tahun Anggaran 2025"
+    ]
+  },
+  {
+    "query_id": "PPM-G-023",
+    "query": "Apakah ada ketentuan yang melarang dosen mengajukan lebih dari dua proposal pengabdian kepada masyarakat dalam satu tahun anggaran?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility Criteria",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II, 2.1 poin e",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Ya. Berdasarkan ketentuan umum poin (e), setiap pengusul dapat mengusulkan maksimal dua usulan pengabdian, yaitu satu usulan sebagai ketua dan satu usulan sebagai anggota, atau dua usulan sebagai anggota. Artinya, dosen tidak dilarang mengajukan dua proposal, namun hanya bisa menjadi ketua pada satu usulan.",
+    "expected_key_facts": [
+      "maksimal 2 usulan pengabdian per pengusul",
+      "1 sebagai ketua + 1 sebagai anggota, atau 2 sebagai anggota",
+      "tidak boleh menjadi ketua pada lebih dari 1 usulan"
+    ]
+  },
+  {
+    "query_id": "PPM-G-024",
+    "query": "Seorang dosen S2 berjabatan Lektor dengan SINTA score 200 bidang Saintek, tidak memiliki tunggakan luaran, dan belum pernah mendapat dana kompetisi nasional dua tahun berturut-turut. Apakah ia memenuhi semua persyaratan untuk mengusulkan Penelitian Unggulan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II 2.1 Ketentuan Umum + BAB IV 4.2.5 Persyaratan Pengusul",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 4.2.5, persyaratan ketua Penelitian Unggulan adalah: S3 min asisten ahli atau S2 min lektor. Dosen S2+Lektor memenuhi syarat jabatan. SINTA score 200 memenuhi syarat minimum 150 bidang Saintek. Tidak ada tunggakan luaran memenuhi syarat. Tidak pernah mendapat dana kompetisi nasional dua tahun berturut-turut memenuhi syarat. Namun masih perlu dipastikan: memiliki rekam jejak publikasi minimal satu artikel di jurnal nasional Sinta 1-4 sebagai penulis pertama/corresponding author. Jika syarat publikasi terpenuhi, maka ia memenuhi semua persyaratan.",
+    "expected_key_facts": [
+      "S2+Lektor memenuhi syarat jabatan",
+      "SINTA 200 memenuhi min 150 Saintek",
+      "tidak ada tunggakan memenuhi syarat",
+      "tidak dapat dana kompetisi 2 tahun berturut terpenuhi",
+      "syarat rekam jejak publikasi Sinta 1-4 perlu dikonfirmasi",
+      "jika publikasi ada maka semua syarat terpenuhi"
+    ]
+  },
+  {
+    "query_id": "PPM-G-025",
+    "query": "Setelah proposal Penelitian Pembinaan dinyatakan lolos seleksi substansi, apa saja yang harus dilakukan pengusul hingga kontrak ditandatangani, dan melalui sistem apa proses tersebut dilakukan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II 2.2.5 Revisi Proposal + 2.2.6 Pelaksanaan + BAB III 3.3.3 Upload Proposal",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Setelah lolos seleksi substansi, pengusul harus: (1) merevisi proposal sesuai catatan reviewer dan menyesuaikan RAB dengan dana yang disetujui LPPM (Pasal 2.2.5); (2) mengupload proposal revisi melalui Sipenaemas (BAB III); (3) menunggu penetapan oleh Rektor; (4) menandatangani kontrak pelaksanaan kegiatan dengan LPPM (Pasal 2.2.6). Seluruh proses pengusulan dan upload dokumen dilakukan melalui aplikasi Sipenaemas di sipenaemas.untad.ac.id.",
+    "expected_key_facts": [
+      "revisi substansi sesuai catatan reviewer",
+      "revisi RAB sesuai dana disetujui",
+      "upload revisi via Sipenaemas",
+      "penetapan oleh Rektor",
+      "penandatanganan kontrak dengan LPPM",
+      "semua proses melalui Sipenaemas"
+    ]
+  },
+  {
+    "query_id": "PPM-G-026",
+    "query": "Seorang dosen S3 berjabatan Lektor dengan SINTA score 350 bidang Saintek ingin mengusulkan Penelitian Inovasi Produktif. Ia pernah mendapat hibah inovasi produktif sebelumnya dan mendapat dana kompetisi nasional tahun 2023 saja. Apakah ia memenuhi syarat?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB II 2.1 poin h + BAB IV 4.3.5 Persyaratan Pengusul",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Dosen tersebut tidak memenuhi syarat. Berdasarkan Pasal 4.3.5 poin h, ketua pengusul Penelitian Inovasi Produktif tidak boleh pernah mendapatkan hibah inovasi produktif sebelumnya. Karena ia sudah pernah mendapat hibah inovasi produktif, syarat ini tidak terpenuhi meskipun syarat lainnya (S3+Lektor, SINTA 350 ≥ 300, dana kompetisi nasional hanya 2023 saja sehingga tidak 2 tahun berturut-turut) terpenuhi.",
+    "expected_key_facts": [
+      "tidak memenuhi syarat",
+      "pernah mendapat hibah inovasi produktif melanggar Pasal 4.3.5 poin h",
+      "S3+Lektor memenuhi syarat jabatan",
+      "SINTA 350 memenuhi min 300",
+      "dana 2023 saja tidak melanggar syarat 2 tahun berturut-turut"
+    ]
+  },
+  {
+    "query_id": "PPM-G-027",
+    "query": "Apa yang dimaksud dengan luaran tambahan dalam skema penelitian di LPPM Untad, dan bagaimana perbedaannya dengan luaran wajib menurut Panduan PPM 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN_PPM_2025",
+    "source_section": "BAB IV tiap skema, bagian Luaran Penelitian",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Luaran wajib adalah hasil penelitian yang harus dipenuhi oleh peneliti sebagai syarat penyelesaian kontrak penelitian dan pencairan dana tahap berikutnya. Luaran tambahan adalah hasil penelitian yang diharapkan dapat dicapai di luar luaran wajib, bersifat tidak mengikat secara kontraktual namun dianjurkan. Misalnya pada Skema Pembinaan, luaran wajib adalah publikasi di jurnal Sinta 3-4 dan bahan ajar, sedangkan luaran tambahan adalah prosiding seminar ilmiah.",
+    "expected_key_facts": [
+      "luaran wajib: syarat kontrak dan pencairan dana",
+      "luaran tambahan: diharapkan tapi tidak mengikat kontraktual",
+      "contoh luaran wajib Pembinaan: jurnal Sinta 3-4 dan bahan ajar",
+      "contoh luaran tambahan: prosiding seminar"
+    ]
+  }
+]

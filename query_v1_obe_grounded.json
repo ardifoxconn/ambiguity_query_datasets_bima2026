@@ -1,0 +1,410 @@
+[
+    {
+    "query_id": "OBE-G-001",
+    "query": "Siapa ketua tim penyusun Dokumen Kurikulum Program Studi Teknik Informatika OBE Untad 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Halaman Tim Penyusun",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Ketua tim penyusun Dokumen Kurikulum Program Studi Teknik Informatika OBE Untad 2025 adalah Yuri Yudhaswana, Ph.D.",
+    "expected_key_facts": [
+      "Yuri Yudhaswana, Ph.D.",
+      "jabatan: Ketua Taskforce Kurikulum PS"
+    ]
+  },
+  {
+    "query_id": "OBE-G-002",
+    "query": "Berapa jumlah dosen Program Studi Teknik Informatika Untad berdasarkan dokumen kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab I Identitas Program Studi",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Jumlah dosen Program Studi Teknik Informatika Untad berdasarkan dokumen kurikulum OBE 2025 adalah 18 orang.",
+    "expected_key_facts": [
+      "18 dosen",
+      "Bab I Identitas Program Studi"
+    ]
+  },
+  {
+    "query_id": "OBE-G-003",
+    "query": "Berapa total SKS yang harus ditempuh mahasiswa Program Studi Teknik Informatika Untad berdasarkan kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VIII Struktur Mata Kuliah dan Masa Tempuh",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Total SKS yang harus ditempuh mahasiswa Program Studi Teknik Informatika Untad berdasarkan kurikulum OBE 2025 adalah 144 SKS.",
+    "expected_key_facts": [
+      "144 SKS",
+      "Bab VIII Struktur Mata Kuliah"
+    ]
+  },
+  {
+    "query_id": "OBE-G-004",
+    "query": "Apa status akreditasi Program Studi Teknik Informatika Untad yang tercantum dalam dokumen kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab I Identitas Program Studi",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Status akreditasi Program Studi Teknik Informatika Untad yang tercantum dalam dokumen kurikulum OBE 2025 adalah Baik Sekali.",
+    "expected_key_facts": [
+      "Baik Sekali",
+      "Bab I Identitas Program Studi"
+    ]
+  },
+  {
+    "query_id": "OBE-G-005",
+    "query": "Apa yang dimaksud dengan Capaian Pembelajaran Lulusan (CPL) dalam konteks kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab V Profil Lulusan dan Standar Kompetensi Lulusan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Capaian Pembelajaran Lulusan (CPL) adalah pernyataan mutu lulusan yang wajib dicapai oleh setiap mahasiswa Program Studi Teknik Informatika setelah menyelesaikan proses pembelajaran. CPL merupakan rumusan kompetensi yang harus dimiliki lulusan dan menjadi acuan penyusunan kurikulum.",
+    "expected_key_facts": [
+      "pernyataan mutu lulusan",
+      "wajib dicapai setelah menyelesaikan pembelajaran",
+      "menjadi acuan penyusunan kurikulum",
+      "Bab V"
+    ]
+  },
+  {
+    "query_id": "OBE-G-006",
+    "query": "Apa yang dimaksud dengan Bahan Kajian (BK) dalam kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VI Penetapan Bahan Kajian",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Bahan Kajian (BK) adalah kumpulan pengetahuan dari disiplin ilmu atau bidang tertentu yang wajib dikuasai dan dapat didemonstrasikan oleh mahasiswa selama proses pembelajaran. Penetapan bahan kajian dirancang untuk menjembatani antara CPL dan mata kuliah.",
+    "expected_key_facts": [
+      "kumpulan pengetahuan dari disiplin ilmu tertentu",
+      "wajib dikuasai mahasiswa",
+      "menjembatani CPL dengan mata kuliah",
+      "Bab VI"
+    ]
+  },
+  {
+    "query_id": "OBE-G-007",
+    "query": "Apa visi keilmuan Program Studi Teknik Informatika Untad yang tertuang dalam kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab IV Visi Keilmuan, Misi, Tujuan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Visi keilmuan Program Studi Teknik Informatika Untad adalah menjadi program studi yang unggul dalam pengembangan teknologi cerdas berbasis kearifan lokal yang berwawasan lingkungan, menghasilkan lulusan yang kompetitif di kancah internasional.",
+    "expected_key_facts": [
+      "unggul dalam teknologi cerdas",
+      "berbasis kearifan lokal",
+      "berwawasan lingkungan",
+      "lulusan kompetitif internasional",
+      "Bab IV"
+    ]
+  },
+  {
+    "query_id": "OBE-G-008",
+    "query": "Apa saja modalitas pembelajaran yang digunakan dalam perencanaan proses pembelajaran di kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab X Modalitas Pembelajaran",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Modalitas pembelajaran dalam kurikulum OBE Teknik Informatika Untad 2025 meliputi antara lain: Small Group Discussion, Role Play and Simulation, Discovery Learning, Self-Directed Learning, Cooperative Learning, Collaborative Learning, Contextual Learning, Project-Based Learning, dan Problem-Based Learning/Inquiry.",
+    "expected_key_facts": [
+      "Small Group Discussion",
+      "Discovery Learning",
+      "Self-Directed Learning",
+      "Project-Based Learning",
+      "Problem-Based Learning",
+      "Cooperative/Collaborative Learning",
+      "Bab X"
+    ]
+  },
+  {
+    "query_id": "OBE-G-009",
+    "query": "Apa saja komponen yang harus ada dalam Rencana Pembelajaran Semester (RPS) menurut kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab XI Rencana Pembelajaran Semester",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Komponen RPS yang harus ada berdasarkan panduan tata cara pengisian meliputi: Capaian Pembelajaran Lulusan (CPL), CPMK (Capaian Pembelajaran Mata Kuliah), Sub-CPMK, indikator pencapaian, kriteria penilaian, bentuk dan metode pembelajaran, waktu pembelajaran, materi pembelajaran, bobot penilaian, dan referensi.",
+    "expected_key_facts": [
+      "CPL",
+      "CPMK",
+      "Sub-CPMK",
+      "indikator pencapaian",
+      "kriteria penilaian",
+      "metode pembelajaran",
+      "bobot penilaian",
+      "Bab XI"
+    ]
+  },
+  {
+    "query_id": "OBE-G-010",
+    "query": "Bagaimana proses penyusunan kurikulum OBE Teknik Informatika Untad 2025 melibatkan pemangku kepentingan eksternal?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab II Evaluasi Kurikulum, Tracer Study, dan Proses Penyusunan",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Proses penyusunan kurikulum OBE Untad 2025 melibatkan pemangku kepentingan eksternal melalui serangkaian FGD dan workshop. Stakeholder eksternal yang terlibat antara lain industri (PT Telkom Witel Sulbagteng, AWL Inc. Japan, APTIKOM), alumni melalui FGD tahunan, serta perguruan tinggi mitra. Mereka memberikan rekomendasi kompetensi spesifik dan umpan balik tentang relevansi kurikulum di dunia kerja.",
+    "expected_key_facts": [
+      "FGD dan workshop dengan stakeholder",
+      "PT Telkom Witel Sulbagteng",
+      "AWL Inc. Japan",
+      "APTIKOM",
+      "alumni melalui FGD tahunan",
+      "Bab II"
+    ]
+  },
+  {
+    "query_id": "OBE-G-011",
+    "query": "Mata kuliah apa saja yang ditawarkan pada Semester III Program Studi Teknik Informatika Untad dalam kurikulum OBE 2025 beserta bobot SKS-nya?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab IX Daftar Sebaran Mata Kuliah, Tabel 9.3",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Mata kuliah Semester III Teknik Informatika Untad 2025: (1) Kajian Lingkungan Hidup (2 SKS), (2) Rekayasa Perangkat Lunak (4 SKS), (3) Basis Data (4 SKS, 3T+1P), (4) Arsitektur Komputer (3 SKS), (5) Matematika Diskrit (3 SKS), dan sejumlah mata kuliah lain sesuai tabel.",
+    "expected_key_facts": [
+      "Kajian Lingkungan Hidup 2 SKS",
+      "Rekayasa Perangkat Lunak 4 SKS",
+      "Basis Data 4 SKS",
+      "Arsitektur Komputer 3 SKS",
+      "Matematika Diskrit 3 SKS",
+      "Tabel 9.3"
+    ]
+  },
+  {
+    "query_id": "OBE-G-012",
+    "query": "Berapa jumlah beban studi Semester V Program Studi Teknik Informatika Untad dalam kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab IX, Tabel 9.5-9.6",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Jumlah beban studi Semester V Program Studi Teknik Informatika Untad dalam kurikulum OBE 2025 adalah 23 SKS.",
+    "expected_key_facts": [
+      "23 SKS",
+      "Semester V",
+      "Tabel 9.5-9.6"
+    ]
+  },
+  {
+    "query_id": "OBE-G-013",
+    "query": "Apa saja mata kuliah pilihan umum yang tersedia dalam kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab IX, Tabel 9.9 MK Pilihan Umum",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mata kuliah pilihan umum dalam kurikulum OBE Teknik Informatika Untad 2025 meliputi: (1) Keamanan Siber (2 SKS), (2) Pemodelan dan Simulasi (2 SKS), (3) Sistem Digital (2 SKS), (4) Kriptografi (2 SKS), dan sejumlah mata kuliah pilihan lainnya sesuai Tabel 9.9.",
+    "expected_key_facts": [
+      "Keamanan Siber 2 SKS",
+      "Pemodelan dan Simulasi 2 SKS",
+      "Sistem Digital 2 SKS",
+      "Kriptografi 2 SKS",
+      "Tabel 9.9"
+    ]
+  },
+  {
+    "query_id": "OBE-G-014",
+    "query": "CPL apa saja yang dibebankan pada mata kuliah Rekayasa Perangkat Lunak dalam kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VII Tabel 7.3 Daftar MK",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Mata kuliah Rekayasa Perangkat Lunak dalam kurikulum OBE 2025 dibebankan CPL yang mencakup kemampuan merancang dan mengimplementasikan solusi perangkat lunak. Berdasarkan matriks CPL-MK, mata kuliah ini dibebankan CPL yang relevan dengan pengembangan perangkat lunak termasuk CPL terkait analisis, perancangan, dan implementasi sistem.",
+    "expected_key_facts": [
+      "CPL yang dibebankan pada Rekayasa Perangkat Lunak",
+      "mencakup aspek perancangan dan implementasi perangkat lunak",
+      "Bab VII Tabel 7.3"
+    ]
+  },
+  {
+    "query_id": "OBE-G-015",
+    "query": "CPL-07 dibebankan pada mata kuliah apa saja, dan bahan kajian apa yang berkaitan dengan CPL tersebut berdasarkan kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VI Tabel 6.1 BK berdasarkan CPL + Bab VII Tabel 7.2 Matriks CPL-MK",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "CPL-07 adalah kemampuan memahami dan menerapkan protokol komunikasi dan arsitektur infrastruktur data untuk merancang sistem komputasi. Berdasarkan Tabel 6.1, bahan kajian yang berkaitan dengan CPL-07 mencakup bidang jaringan komputer dan infrastruktur komputasi. Mata kuliah yang dibebankan CPL-07 dapat dilihat dari matriks Tabel 7.2.",
+    "expected_key_facts": [
+      "CPL-07: protokol komunikasi dan arsitektur infrastruktur data",
+      "bahan kajian terkait: jaringan komputer dan infrastruktur",
+      "pemetaan MK-CPL ada di Tabel 7.2",
+      "Bab VI Tabel 6.1"
+    ]
+  },
+  {
+    "query_id": "OBE-G-016",
+    "query": "Berdasarkan profil lulusan dan CPL yang ditetapkan, kompetensi apa yang harus dimiliki lulusan Teknik Informatika Untad untuk memenuhi profil sebagai pengembang perangkat lunak profesional?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab V Tabel 5.1 Profil Lulusan + Bab V CPL PS",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Tabel 5.1, profil lulusan sebagai pengembang perangkat lunak profesional mensyaratkan kompetensi: kemampuan analisis dan pemecahan masalah komputasional, kemampuan merancang dan mengimplementasikan solusi berbasis perangkat lunak, penguasaan siklus pengembangan perangkat lunak, serta kemampuan bekerja dalam tim multidisiplin. CPL yang relevan antara lain CPL yang mencakup kompetensi perancangan sistem dan pengembangan perangkat lunak.",
+    "expected_key_facts": [
+      "profil: pengembang perangkat lunak profesional",
+      "kompetensi: analisis dan pemecahan masalah komputasional",
+      "kompetensi: merancang dan mengimplementasikan solusi perangkat lunak",
+      "kompetensi: bekerja dalam tim",
+      "Tabel 5.1 + CPL PS"
+    ]
+  },
+  {
+    "query_id": "OBE-G-017",
+    "query": "Mata kuliah Data Mining ditempatkan di semester berapa, berapa SKS-nya, dan CPL apa yang dibebankan padanya dalam kurikulum OBE 2025?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VII Tabel 7.3 + Bab IX Tabel 9.5",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Tabel 9.5-9.6, mata kuliah Data Mining ditempatkan di Semester V. Bobot SKS-nya adalah 4 SKS (4 teori, 0 praktikum). CPL yang dibebankan pada Data Mining dapat dilihat dari matriks Tabel 7.3.",
+    "expected_key_facts": [
+      "Data Mining di Semester V",
+      "4 SKS",
+      "CPL yang dibebankan sesuai Tabel 7.3",
+      "Tabel 9.5 + Tabel 7.3"
+    ]
+  },
+  {
+    "query_id": "OBE-G-018",
+    "query": "Berdasarkan hasil tracer study dan evaluasi kurikulum sebelumnya, perubahan apa yang dilakukan pada kurikulum OBE 2025 dibandingkan kurikulum 2021?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab II 2.1 Evaluasi Kurikulum + Bab II 2.2 Tracer Study",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Bab II, perubahan kurikulum OBE 2025 dibanding kurikulum 2021 antara lain: relokasi mata kuliah inti ke semester awal (1-4), pengurangan prasyarat mata kuliah, penyediaan mata kuliah pilihan konversi dari aktivitas MBKM, penyesuaian CPMK dan Sub-CPMK dalam RPS agar selaras dengan CPL, dan perbaikan teknik asesmen agar sesuai dengan tujuan pembelajaran.",
+    "expected_key_facts": [
+      "relokasi MK inti ke semester 1-4",
+      "pengurangan prasyarat MK",
+      "MK pilihan konversi dari MBKM",
+      "penyesuaian CPMK dan Sub-CPMK selaras CPL",
+      "perbaikan teknik asesmen",
+      "Bab II"
+    ]
+  },
+  {
+    "query_id": "OBE-G-019",
+    "query": "Kelompok mata kuliah apa yang harus diselesaikan pada Semester VII dan VIII, dan bagaimana mata kuliah tersebut berhubungan dengan penyelesaian studi mahasiswa?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VIII Matriks Kurikulum + Bab IX Sebaran MK Semester VII-VIII",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Pada Semester VII, mahasiswa menyelesaikan Kerja Praktek (KP), Kuliah Kerja Nyata (KKN), dan Proposal. Pada Semester VIII, mahasiswa menyelesaikan Hasil, dan Skripsi (4 SKS). Mata kuliah-mata kuliah ini merupakan rangkaian penyelesaian tugas akhir studi yang harus diselesaikan secara berurutan: dari penyusunan proposal, seminar hasil, hingga sidang skripsi.",
+    "expected_key_facts": [
+      "Semester VII: Kerja Praktek, KKN, Proposal",
+      "Semester VIII: Hasil dan Skripsi 4 SKS",
+      "merupakan rangkaian penyelesaian tugas akhir",
+      "Bab VIII Matriks Kurikulum + Bab IX"
+    ]
+  },
+  {
+    "query_id": "OBE-G-020",
+    "query": "Apa deskripsi mata kuliah Kecerdasan Artifisial Fundamental dalam kurikulum OBE Teknik Informatika Untad 2025?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VII Tabel 7.3 MK Kecerdasan Artifisial Fundamental",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mata kuliah Kecerdasan Artifisial Fundamental dirancang untuk membekali mahasiswa dengan pemahaman mendalam mengenai konsep dan teori dasar kecerdasan buatan. Materi pembelajaran mencakup teori pencarian, representasi pengetahuan, logika dan inferensi, machine learning dasar, serta pengenalan algoritma AI termasuk natural language processing.",
+    "expected_key_facts": [
+      "konsep dan teori dasar kecerdasan buatan",
+      "teori pencarian dan representasi pengetahuan",
+      "logika dan inferensi",
+      "machine learning dasar",
+      "pengenalan NLP",
+      "Bab VII Tabel 7.3"
+    ]
+  },
+  {
+    "query_id": "OBE-G-021",
+    "query": "Apa saja bahan kajian (BK) yang ditetapkan dalam kurikulum OBE Teknik Informatika Untad 2025 beserta deskripsi singkatnya?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "Kurikulum_OBE_PS_Teknik_Informatika_UNTAD_2025",
+    "source_section": "Bab VI 6.2 Deskripsi Bahan Kajian Tabel 6.2",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Bahan kajian yang ditetapkan dalam kurikulum OBE Teknik Informatika Untad 2025 meliputi antara lain: BK01 (Sosial, Hukum, dan Etika Teknologi), BK07 (Software Engineering: SDLC, agile, DevOps), BK08 (Kecerdasan Buatan/AI: machine learning, NLP), serta bahan kajian terkait jaringan, sistem basis data, dan infrastruktur komputasi. Setiap BK memiliki kode unik dan deskripsi ruang lingkup studinya.",
+    "expected_key_facts": [
+      "BK memiliki kode unik",
+      "Software Engineering mencakup SDLC dan agile",
+      "AI mencakup machine learning dan NLP",
+      "mencakup aspek sosial, hukum, etika teknologi",
+      "Tabel 6.2"
+    ]
+  }
+]

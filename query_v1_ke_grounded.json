@@ -1,0 +1,336 @@
+[
+    {
+    "query_id": "KE-G-001",
+    "query": "Apa nomor dan tahun peraturan rektor yang mengatur Kode Etik Sivitas Akademika Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Halaman Judul",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Kode Etik Sivitas Akademika Universitas Tadulako diatur dalam Peraturan Rektor Universitas Tadulako Nomor 01 Tahun 2019.",
+    "expected_key_facts": [
+      "Nomor 01",
+      "Tahun 2019",
+      "Peraturan Rektor Universitas Tadulako"
+    ]
+  },
+  {
+    "query_id": "KE-G-002",
+    "query": "Berapa jumlah anggota Komisi Etik Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 32 ayat 1",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Komisi Etik Universitas Tadulako beranggotakan lima orang yang terdiri atas ketua, sekretaris, dan divisi, yang diangkat oleh Rektor.",
+    "expected_key_facts": [
+      "5 anggota",
+      "terdiri dari ketua, sekretaris, dan divisi",
+      "diangkat oleh Rektor"
+    ]
+  },
+  {
+    "query_id": "KE-G-003",
+    "query": "Siapa yang memiliki kewenangan menjatuhkan sanksi ringan, sedang, atau berat kepada seluruh sivitas akademika Untad?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 31",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Rektor Universitas Tadulako memiliki kewenangan untuk menjatuhkan sanksi ringan, sanksi sedang, atau sanksi berat kepada setiap anggota sivitas akademika yang terbukti telah melakukan pelanggaran etika.",
+    "expected_key_facts": [
+      "Rektor",
+      "berwenang menjatuhkan semua tingkat sanksi",
+      "kepada seluruh sivitas akademika"
+    ]
+  },
+  {
+    "query_id": "KE-G-004",
+    "query": "Berapa kecepatan maksimal yang diizinkan untuk mengendarai kendaraan di dalam kampus Untad menurut Kode Etik?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 14, 17, 20",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Kecepatan maksimal mengendarai kendaraan di dalam kampus Untad adalah 30 km/jam. Ketentuan ini berlaku bagi dosen (Pasal 14), tenaga kependidikan (Pasal 17), maupun mahasiswa (Pasal 20).",
+    "expected_key_facts": [
+      "30 km/jam",
+      "berlaku untuk dosen, tendik, dan mahasiswa",
+      "Pasal 14, 17, dan 20"
+    ]
+  },
+  {
+    "query_id": "KE-G-005",
+    "query": "Apa yang dimaksud dengan Sivitas Akademika dalam Kode Etik Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 1 angka 12",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Sivitas Akademika adalah Dosen, Tenaga Kependidikan, dan Mahasiswa Universitas Tadulako.",
+    "expected_key_facts": [
+      "dosen",
+      "tenaga kependidikan",
+      "mahasiswa",
+      "Pasal 1 angka 12"
+    ]
+  },
+  {
+    "query_id": "KE-G-006",
+    "query": "Apa yang dimaksud dengan pelanggaran berat menurut Kode Etik Untad?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 13",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Pelanggaran berat adalah pelanggaran yang dapat mengakibatkan dijatuhkannya sanksi berat, antara lain berupa dilaporkan kepada kepolisian, dibebani kewajiban membayar ganti rugi, sanksi akademik dan administratif berat bagi dosen, sanksi administratif berat bagi tenaga kependidikan, sanksi akademik dan administrasi berat bagi mahasiswa, pengusulan pemecatan, hingga pemecatan sebagai mahasiswa. Pelanggaran berat juga dapat merupakan akumulasi tiga pelanggaran sedang yang tidak diindahkan.",
+    "expected_key_facts": [
+      "sanksi berat termasuk pemecatan",
+      "dapat dilaporkan ke kepolisian",
+      "akumulasi 3 pelanggaran sedang yang tidak diindahkan",
+      "Pasal 13"
+    ]
+  },
+  {
+    "query_id": "KE-G-007",
+    "query": "Apa yang dimaksud dengan Etika Akademik dalam Kode Etik Untad?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 1 angka 22",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Etika Akademik adalah seperangkat nilai positif yang wajib ditaati oleh sivitas akademika Universitas Tadulako dalam berpikir, berperilaku, dan bersikap dalam mengemban tugas dan kewajiban yang berkaitan dengan kegiatan akademik.",
+    "expected_key_facts": [
+      "seperangkat nilai positif",
+      "wajib ditaati sivitas akademika",
+      "berkaitan dengan kegiatan akademik",
+      "Pasal 1 angka 22"
+    ]
+  },
+  {
+    "query_id": "KE-G-008",
+    "query": "Apa saja yang termasuk Kegiatan Akademik berdasarkan Kode Etik Untad?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 1 angka 23",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Kegiatan Akademik meliputi: kuliah, praktikum, kuis, ujian, seminar, pembimbingan, praktek kerja lapangan, praktek pengalaman lapangan, pendidikan profesi, kuliah kerja nyata, penelitian untuk tugas akhir, yudisium, sumpah profesi, dan wisuda.",
+    "expected_key_facts": [
+      "kuliah",
+      "praktikum",
+      "ujian",
+      "seminar",
+      "pembimbingan",
+      "KKN",
+      "penelitian tugas akhir",
+      "yudisium",
+      "wisuda",
+      "Pasal 1 angka 23"
+    ]
+  },
+  {
+    "query_id": "KE-G-009",
+    "query": "Apa saja etika dasar yang harus dimiliki oleh seluruh sivitas akademika Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 4",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Etika dasar sivitas akademika Untad terdiri dari 7 nilai, yaitu: (1) beriman dan bertaqwa kepada Tuhan YME; (2) setia kepada Pancasila, UUD 1945, dan NKRI; (3) menjunjung kehormatan diri, universitas, bangsa dan negara; (4) menaati hukum dan menghormati HAM; (5) memiliki akhlak terpuji, jujur, disiplin, demokratis, dan bertanggung jawab; (6) menyadari peran penting sivitas akademika dalam membangun bangsa; (7) memiliki kepedulian terhadap keadilan, kesehatan, kesejahteraan masyarakat, dan kelestarian lingkungan.",
+    "expected_key_facts": [
+      "7 nilai etika dasar",
+      "beriman dan bertaqwa",
+      "setia Pancasila dan NKRI",
+      "menjunjung kehormatan",
+      "taat hukum dan HAM",
+      "akhlak terpuji jujur disiplin",
+      "peduli masyarakat dan lingkungan",
+      "Pasal 4"
+    ]
+  },
+  {
+    "query_id": "KE-G-010",
+    "query": "Apa kewenangan dosen dalam menjatuhkan atau mengusulkan sanksi kepada mahasiswa yang melanggar etika?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 25",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Dosen memiliki kewenangan: (1) memberi sanksi ringan kepada mahasiswa yang melanggar etika berkaitan dengan tugas akademiknya; (2) mengusulkan kepada pimpinan fakultas untuk menjatuhkan sanksi sedang atau berat kepada mahasiswa; (3) mengadukan anggota sivitas akademika lain yang melanggar etika kepada pimpinan fakultas atau universitas.",
+    "expected_key_facts": [
+      "dosen dapat langsung memberi sanksi ringan ke mahasiswa",
+      "dosen hanya mengusulkan sanksi sedang/berat ke pimpinan fakultas",
+      "dosen dapat mengadukan sivitas lain ke pimpinan",
+      "Pasal 25"
+    ]
+  },
+  {
+    "query_id": "KE-G-011",
+    "query": "Bagaimana proses penjatuhan sanksi sedang kepada dosen yang melanggar etika di tingkat Jurusan/Bagian?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 28",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Ketua Jurusan/Bagian berwenang mengusulkan kepada pimpinan fakultas untuk menjatuhkan sanksi sedang kepada dosen yang terbukti melanggar etika. Setiap usulan harus dilakukan berdasarkan pertimbangan rapat program studi atau Jurusan/Bagian terlebih dahulu.",
+    "expected_key_facts": [
+      "Ketua Jurusan/Bagian mengusulkan ke pimpinan fakultas",
+      "tidak langsung menjatuhkan sanksi sedang",
+      "harus melalui pertimbangan rapat jurusan/prodi",
+      "Pasal 28 ayat 3-4"
+    ]
+  },
+  {
+    "query_id": "KE-G-012",
+    "query": "Apa saja tujuan disusunnya Kode Etik Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 2",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Kode Etik Untad disusun dengan dua tujuan: (1) membangun sivitas akademika yang memiliki moral, sikap, karakter, dan etika santun sehingga tercipta suasana kehidupan kampus yang kondusif; (2) membangun universitas menjadi institusi pendidikan tinggi yang memiliki karakter, etika, dan citra kuat dalam pengembangan SDM berkualitas sesuai tujuan pendidikan nasional.",
+    "expected_key_facts": [
+      "2 tujuan",
+      "membangun sivitas akademika bermoral dan beretika",
+      "membangun citra universitas yang kuat",
+      "Pasal 2"
+    ]
+  },
+  {
+    "query_id": "KE-G-013",
+    "query": "Seorang dosen terbukti melakukan plagiat dan membocorkan dokumen rahasia institusi. Termasuk pelanggaran apa dan sanksi apa yang dapat dijatuhkan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 16 dan Pasal 24",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Plagiat termasuk pelanggaran berat dosen (Pasal 16 poin 4), dan membocorkan dokumen rahasia juga termasuk pelanggaran berat (Pasal 16 poin 7). Karena keduanya adalah pelanggaran berat, sanksi yang dapat dijatuhkan berdasarkan Pasal 24 ayat 5 meliputi: dinonaktifkan dari tugas akademik untuk jangka waktu tidak ditentukan, penghentian semua tunjangan atau diberhentikan sebagai ASN, mengganti kerugian, dan/atau dilaporkan ke kepolisian. Rektor berwenang menjatuhkan sanksi ini setelah melalui pertimbangan Komisi Etik Universitas.",
+    "expected_key_facts": [
+      "plagiat = pelanggaran berat Pasal 16 poin 4",
+      "membocorkan dokumen rahasia = pelanggaran berat Pasal 16 poin 7",
+      "sanksi berat: dinonaktifkan dari akademik",
+      "sanksi berat: penghentian tunjangan/diberhentikan ASN",
+      "dapat dilaporkan ke kepolisian",
+      "dijatuhkan Rektor setelah pertimbangan Komisi Etik"
+    ]
+  },
+  {
+    "query_id": "KE-G-014",
+    "query": "Apakah dalam Kode Etik Untad disebutkan bahwa pelanggaran berat dapat dipertimbangkan menjadi pelanggaran sedang jika pelanggar meminta maaf?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 13 ayat 6",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Ya, hal ini disebutkan dalam Pasal 13 ayat 6. Pelanggaran berat dapat dipertimbangkan menjadi pelanggaran sedang apabila yang bersangkutan meminta maaf. Demikian pula pelanggaran sedang dapat dipertimbangkan menjadi pelanggaran ringan dengan mekanisme yang sama.",
+    "expected_key_facts": [
+      "ya, diatur di Pasal 13 ayat 6",
+      "pelanggaran berat bisa turun ke sedang jika meminta maaf",
+      "pelanggaran sedang bisa turun ke ringan jika meminta maaf"
+    ]
+  },
+  {
+    "query_id": "KE-G-015",
+    "query": "Seorang dosen mempersulit mahasiswa dalam penyelesaian tugas akhir dan terbukti menjual diktat secara paksa. Termasuk kategori pelanggaran apa masing-masing tindakan tersebut, dan sanksi apa yang dapat dijatuhkan berdasarkan hierarki kewenangan yang berlaku?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 15 poin 1 + Pasal 16 poin 6 + Pasal 24 + Pasal 29",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Mempersulit mahasiswa dalam penyelesaian tugas akhir termasuk pelanggaran sedang (Pasal 15 poin 1). Menjual diktat secara paksa kepada mahasiswa termasuk pelanggaran berat (Pasal 16 poin 6). Untuk pelanggaran sedang, Dekan berwenang menjatuhkan sanksi berupa dinonaktifkan dari tugas akademik untuk jangka waktu tertentu atau sanksi administratif (penghentian tunjangan, penundaan kenaikan pangkat, dll) berdasarkan Pasal 24 ayat 3 dan Pasal 29. Untuk pelanggaran berat, Rektor berwenang menjatuhkan sanksi setelah pertimbangan Komisi Etik, yang dapat berupa dinonaktifkan tanpa batas waktu, penghentian semua tunjangan/diberhentikan sebagai ASN, hingga dilaporkan ke kepolisian.",
+    "expected_key_facts": [
+      "mempersulit tugas akhir = pelanggaran sedang Pasal 15 poin 1",
+      "menjual diktat paksa = pelanggaran berat Pasal 16 poin 6",
+      "sanksi sedang dijatuhkan Dekan: Pasal 29",
+      "sanksi berat dijatuhkan Rektor setelah Komisi Etik: Pasal 31",
+      "sanksi berat: dinonaktifkan/diberhentikan/dilaporkan polisi"
+    ]
+  },
+  {
+    "query_id": "KE-G-016",
+    "query": "Seorang mahasiswa melakukan demonstrasi anarkis di dalam kampus dan terbukti merusak fasilitas universitas. Siapa yang berwenang menjatuhkan sanksi, melalui proses apa, dan sanksi apa yang dapat dikenakan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 22 poin 13 + Pasal 24 ayat 6 + Pasal 29 + Pasal 31",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Demonstrasi anarkis dan merusak fasilitas universitas termasuk pelanggaran berat mahasiswa (Pasal 22 poin 13). Berdasarkan hierarki kewenangan, pelanggaran berat mahasiswa diproses melalui: laporan ke Koordinator Program Studi/Ketua Bagian, kemudian ke Dekan, kemudian ke Rektor setelah pertimbangan Komisi Etik Universitas. Sanksi yang dapat dijatuhkan berdasarkan Pasal 24 ayat 6 meliputi: dilarang mengikuti kegiatan akademik selama satu tahun atau diberhentikan sebagai mahasiswa, mengganti kerugian, dan/atau dilaporkan ke kepolisian.",
+    "expected_key_facts": [
+      "demonstrasi anarkis = pelanggaran berat Pasal 22 poin 13",
+      "alur: Koordinator Prodi -> Dekan -> Rektor + Komisi Etik",
+      "sanksi: dilarang akademik 1 tahun atau diberhentikan",
+      "sanksi: mengganti kerugian",
+      "sanksi: dilaporkan ke kepolisian",
+      "Pasal 24 ayat 6"
+    ]
+  },
+  {
+    "query_id": "KE-G-017",
+    "query": "Seorang tenaga kependidikan dilaporkan telah mempersulit mahasiswa dalam urusan administrasi akademik dan menggunakan fasilitas universitas untuk kepentingan pribadi. Melalui jalur kewenangan mana laporan ini diproses, dan apa dasar hukum untuk menjatuhkan sanksi sedang?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "Peraturan_Rektor_No_01_Tahun_2019_Kode_Etik",
+    "source_section": "Pasal 18 poin 2 dan 9 + Pasal 24 ayat 3 + Pasal 30",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Mempersulit mahasiswa dalam administrasi akademik termasuk pelanggaran sedang tenaga kependidikan (Pasal 18 poin 2). Menggunakan fasilitas universitas untuk kepentingan pribadi juga termasuk pelanggaran sedang (Pasal 18 poin 9). Laporan diproses melalui jalur: Kepala Bagian Tata Usaha sebagai penerima laporan awal, kemudian diteruskan ke Dekan/Direktur/Kepala Biro untuk sanksi sedang. Dasar hukum sanksi sedang bagi tenaga kependidikan adalah Pasal 24 ayat 3, yang mencakup sanksi administratif berupa penghentian tunjangan, penghentian gaji berkala, penundaan kenaikan pangkat, atau penghentian dari jabatan struktural.",
+    "expected_key_facts": [
+      "mempersulit administrasi akademik = pelanggaran sedang Pasal 18 poin 2",
+      "menggunakan fasilitas pribadi = pelanggaran sedang Pasal 18 poin 9",
+      "alur laporan: Kepala Bagian TU -> Dekan/Kepala Biro",
+      "sanksi sedang: penghentian tunjangan/gaji berkala/kenaikan pangkat",
+      "Pasal 24 ayat 3 + Pasal 30"
+    ]
+  }
+]

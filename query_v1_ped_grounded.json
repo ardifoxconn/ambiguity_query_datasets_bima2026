@@ -1,0 +1,482 @@
+[
+     {
+    "query_id": "PED-G-001",
+    "query": "Berapa IPK minimum yang disyaratkan untuk lulus Program Sarjana di Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 60 ayat 1b",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "IPK minimum yang disyaratkan untuk lulus Program Sarjana di Universitas Tadulako adalah 2,75, berdasarkan Pasal 60 ayat 1b.",
+    "expected_key_facts": [
+      "IPK minimum 2,75",
+      "Program Sarjana",
+      "Pasal 60 ayat 1b"
+    ]
+  },
+  {
+    "query_id": "PED-G-002",
+    "query": "Berapa IPK minimum untuk mendapatkan predikat kelulusan pujian (cumlaude) pada Program Sarjana di Untad?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 62 ayat 1a",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "IPK minimum untuk mendapatkan predikat kelulusan pujian pada Program Sarjana di Untad adalah lebih dari 3,50 (IPK > 3,50), dengan ketentuan tambahan masa studi maksimal 4 tahun untuk Sarjana/Sarjana Terapan dan 3 tahun untuk Diploma Tiga.",
+    "expected_key_facts": [
+      "IPK > 3,50",
+      "masa studi maksimal 4 tahun untuk Sarjana",
+      "Pasal 62 ayat 1a"
+    ]
+  },
+  {
+    "query_id": "PED-G-003",
+    "query": "Berapa jumlah maksimal semester cuti akademik yang dapat diberikan kepada mahasiswa Untad?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 25 ayat 8",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Cuti akademik diberikan paling banyak 2 semester kepada mahasiswa Untad.",
+    "expected_key_facts": [
+      "maksimal 2 semester",
+      "Pasal 25 ayat 8"
+    ]
+  },
+  {
+    "query_id": "PED-G-004",
+    "query": "Berapa SKS maksimal yang dapat diambil mahasiswa baru Untad pada semester pertama?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 20 beban studi mahasiswa baru",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mahasiswa baru Untad dapat mengambil maksimal 24 SKS per semester dengan memperhatikan prasyarat setiap mata kuliah.",
+    "expected_key_facts": [
+      "maksimal 24 SKS",
+      "untuk mahasiswa tahun pertama",
+      "memperhatikan prasyarat MK"
+    ]
+  },
+  {
+    "query_id": "PED-G-005",
+    "query": "Apa yang dimaksud dengan Penasehat Akademik menurut Pedoman Akademik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 1 ayat 34 + Pasal 27",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Penasehat akademik adalah dosen tetap PNS dan dosen tetap non PNS yang diserahi tugas untuk memberikan pertimbangan, petunjuk, nasehat, dan persetujuan kepada mahasiswa dalam menentukan rencana studi dan pemecahan masalah akademik yang dihadapinya.",
+    "expected_key_facts": [
+      "dosen tetap PNS atau non PNS",
+      "memberi pertimbangan dan nasehat akademik",
+      "membantu perencanaan studi mahasiswa",
+      "Pasal 1 ayat 34"
+    ]
+  },
+  {
+    "query_id": "PED-G-006",
+    "query": "Apa yang dimaksud dengan Kuliah Kerja Nyata (KKN) menurut Pedoman Akademik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 1 ayat 23 + Pasal 18",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Kuliah Kerja Nyata (KKN) adalah suatu bentuk pendidikan dengan cara memberikan pengalaman belajar kepada mahasiswa untuk hidup di tengah masyarakat di luar kampus, yang secara langsung bersama masyarakat mengidentifikasi potensi dan menangani masalah sehingga diharapkan mampu mengembangkan potensi desa/daerah dan meramu solusi masalah secara kontekstual.",
+    "expected_key_facts": [
+      "pengalaman belajar di tengah masyarakat",
+      "mengidentifikasi potensi dan masalah bersama masyarakat",
+      "mata kuliah wajib universitas dikelola LPPM",
+      "Pasal 1 ayat 23 + Pasal 18"
+    ]
+  },
+  {
+    "query_id": "PED-G-007",
+    "query": "Apa yang dimaksud dengan Program MBKM menurut Pedoman Akademik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 1 ayat 45",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Program MBKM (Merdeka Belajar Kampus Merdeka) adalah program yang bertujuan mendorong mahasiswa untuk menguasai berbagai keilmuan sebagai bekal memasuki dunia kerja, melalui kesempatan 1 semester (setara 20 SKS) di luar program studi dalam kampus atau 2 semester (setara 40 SKS) di luar kampus.",
+    "expected_key_facts": [
+      "mendorong mahasiswa menguasai berbagai keilmuan",
+      "1 semester di luar prodi = 20 SKS",
+      "2 semester di luar kampus = 40 SKS",
+      "Pasal 1 ayat 45"
+    ]
+  },
+  {
+    "query_id": "PED-G-008",
+    "query": "Apa yang dimaksud dengan Kartu Hasil Studi (KHS) dalam Pedoman Akademik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 1 ayat 33",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Kartu Hasil Studi (KHS) adalah kartu yang memuat nilai mata kuliah, Indeks Prestasi (IP) pada semester berjalan, dan perolehan seluruh SKS yang telah dikumpulkan serta IPK.",
+    "expected_key_facts": [
+      "memuat nilai mata kuliah",
+      "memuat IP semester berjalan",
+      "memuat total SKS dan IPK",
+      "Pasal 1 ayat 33"
+    ]
+  },
+  {
+    "query_id": "PED-G-009",
+    "query": "Apa saja syarat yang harus dipenuhi mahasiswa untuk dapat mengikuti ujian semester di Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 32 ayat 2 Syarat Ujian",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Syarat mengikuti ujian semester di Untad meliputi: (1) terdaftar sebagai peserta mata kuliah yang tercantum dalam DPK atau terdaftar di SIAKAD; (2) telah mengikuti perkuliahan minimal sesuai ketentuan kehadiran; (3) telah memenuhi persyaratan administrasi akademik yang ditetapkan.",
+    "expected_key_facts": [
+      "terdaftar dalam DPK atau SIAKAD",
+      "memenuhi ketentuan kehadiran minimal",
+      "memenuhi persyaratan administrasi akademik",
+      "Pasal 32 ayat 2"
+    ]
+  },
+  {
+    "query_id": "PED-G-010",
+    "query": "Bagaimana prosedur registrasi akademik mahasiswa baru di Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 24 Registrasi",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Registrasi administrasi mahasiswa baru dilakukan di BAKP dengan ketentuan: melakukan pendaftaran ulang (her-registrasi) setiap awal semester, membayar biaya pendidikan melalui sistem pembayaran yang ditetapkan, dan melengkapi persyaratan administrasi. Setelah registrasi administrasi, mahasiswa melakukan registrasi akademik melalui SIAKAD untuk mengisi rencana studi.",
+    "expected_key_facts": [
+      "her-registrasi setiap awal semester",
+      "pembayaran biaya pendidikan",
+      "dilakukan di BAKP",
+      "dilanjutkan registrasi akademik via SIAKAD",
+      "Pasal 24"
+    ]
+  },
+  {
+    "query_id": "PED-G-011",
+    "query": "Apa saja bentuk kegiatan pembelajaran MBKM yang diakui oleh Untad berdasarkan Pedoman Akademik 2023-2024?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 40 Bentuk Kegiatan Pembelajaran MBKM",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Bentuk kegiatan pembelajaran MBKM yang diakui Untad meliputi: (a) pertukaran pelajar, (b) magang/praktik kerja, (c) asistensi mengajar di satuan pendidikan, (d) penelitian/riset, (e) proyek kemanusiaan, (f) kegiatan wirausaha, (g) studi/proyek independen, dan (h) membangun desa/KKN tematik.",
+    "expected_key_facts": [
+      "pertukaran pelajar",
+      "magang/praktik kerja",
+      "asistensi mengajar",
+      "penelitian/riset",
+      "proyek kemanusiaan",
+      "wirausaha",
+      "studi/proyek independen",
+      "KKN tematik",
+      "Pasal 40"
+    ]
+  },
+  {
+    "query_id": "PED-G-012",
+    "query": "Bagaimana mekanisme penandatanganan naskah kerjasama antara Untad dengan institusi mitra?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "BAB II Prosedur Kerjasama ayat 3",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Naskah kerjasama Untad dengan institusi mitra ditandatangani oleh Rektor dalam bentuk MoU, oleh Dekan/Direktur Pascasarjana/Ketua lembaga dalam bentuk MoA, dan oleh Koordinator Program Studi dalam bentuk PKS. Penandatanganan dilakukan setelah disepakati tanggal dan tempat pelaksanaannya yang dikoordinasikan oleh Rektor dan pimpinan mitra.",
+    "expected_key_facts": [
+      "Rektor menandatangani MoU",
+      "Dekan/Direktur menandatangani MoA",
+      "Koordinator Prodi menandatangani PKS",
+      "koordinasi tanggal antara Rektor dan pimpinan mitra"
+    ]
+  },
+  {
+    "query_id": "PED-G-013",
+    "query": "Apa saja bentuk sanksi yang dapat dikenakan kepada mahasiswa yang melanggar ketentuan akademik di Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 43 Sanksi dan Drop Out Mahasiswa",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Bentuk sanksi bagi mahasiswa yang melanggar ketentuan akademik di Untad meliputi: teguran lisan, teguran tertulis (3 kali), skorsing dari kegiatan akademik, dan drop out (dikeluarkan). Khusus untuk pelanggaran akademik sedang, sanksi berupa pencabutan hak/izin mengikuti kegiatan akademik sementara paling lama 2 semester. Untuk pelanggaran akademik berat, sanksi setinggi-tingginya berupa pemecatan atau dikeluarkan dari universitas.",
+    "expected_key_facts": [
+      "teguran lisan dan tertulis",
+      "skorsing dari kegiatan akademik",
+      "drop out",
+      "pelanggaran sedang: dicabut hak akademik maksimal 2 semester",
+      "pelanggaran berat: pemecatan",
+      "Pasal 43 + Pasal 44"
+    ]
+  },
+  {
+    "query_id": "PED-G-014",
+    "query": "Apa syarat yang harus dipenuhi mahasiswa agar dapat mengajukan cuti akademik di Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 25 Cuti Akademik",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Syarat untuk mengajukan cuti akademik di Untad antara lain: (1) mahasiswa hanya dapat mengajukan cuti setelah menempuh studi selama 2 semester pada tahun pertama; (2) cuti diberikan paling banyak 2 semester; (3) mengajukan permohonan resmi dengan izin Rektor.",
+    "expected_key_facts": [
+      "sudah menempuh minimal 2 semester",
+      "maksimal 2 semester cuti",
+      "perlu izin resmi Rektor",
+      "Pasal 25"
+    ]
+  },
+  {
+    "query_id": "PED-G-015",
+    "query": "Apa saja persyaratan untuk mendapatkan predikat kelulusan pujian pada Program Magister di Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 62 ayat 2",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Persyaratan predikat kelulusan pujian pada Program Magister di Untad meliputi IPK lebih dari 3,50 dengan masa studi maksimal 2 tahun, serta memenuhi syarat kelulusan lainnya yang ditetapkan.",
+    "expected_key_facts": [
+      "IPK > 3,50",
+      "masa studi maksimal 2 tahun untuk Magister",
+      "Pasal 62 ayat 2"
+    ]
+  },
+  {
+    "query_id": "PED-G-016",
+    "query": "Apa persyaratan yang harus dipenuhi Promotor dalam pembimbingan Disertasi di Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 58 ayat 1b",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Syarat Promotor dalam pembimbingan Disertasi di Untad: (a) memiliki jabatan fungsional Guru Besar, atau Doktor dengan jabatan fungsional Lektor Kepala; (b) memenuhi persyaratan lain yang ditetapkan universitas.",
+    "expected_key_facts": [
+      "jabatan Guru Besar, atau",
+      "Doktor dengan jabatan Lektor Kepala",
+      "Pasal 58 ayat 1b"
+    ]
+  },
+  {
+    "query_id": "PED-G-017",
+    "query": "Seorang mahasiswa Program Sarjana Untad memiliki IPK 3,55 dan menyelesaikan studi dalam 3,5 tahun. Predikat kelulusan apa yang akan diperolehnya dan apa alasannya?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 62 ayat 1a + syarat masa studi maksimal 4 tahun untuk pujian",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 62 ayat 1a, predikat pujian diberikan jika IPK lebih dari 3,50 dan masa studi maksimal 4 tahun untuk Program Sarjana. Mahasiswa dengan IPK 3,55 memenuhi syarat IPK (> 3,50). Masa studi 3,5 tahun juga memenuhi syarat (tidak melebihi 4 tahun). Karena kedua syarat terpenuhi, mahasiswa tersebut mendapatkan predikat kelulusan pujian.",
+    "expected_key_facts": [
+      "IPK 3,55 > 3,50 memenuhi syarat",
+      "masa studi 3,5 tahun ≤ 4 tahun memenuhi syarat",
+      "predikat: pujian",
+      "Pasal 62 ayat 1a"
+    ]
+  },
+  {
+    "query_id": "PED-G-018",
+    "query": "Mahasiswa baru Untad yang memiliki IPK 3,60 setelah semester pertama ingin mengambil SKS sebanyak-banyaknya di semester kedua. Berapa maksimal SKS yang dapat diambilnya dan apa dasar aturannya?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 20 Beban Studi + Pasal 31 ketentuan beban SKS berdasarkan IPK",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 20 dan Pasal 31, beban SKS yang dapat diambil mahasiswa ditentukan oleh IPK semester sebelumnya. Mahasiswa baru tahun pertama dapat mengambil maksimal 24 SKS. Namun untuk semester kedua, IPK 3,60 dari semester pertama memungkinkan pengambilan SKS maksimal sesuai ketentuan yang berlaku. Berdasarkan ketentuan umum, dengan IPK ≥ 3,00 mahasiswa dapat mengambil hingga 24 SKS.",
+    "expected_key_facts": [
+      "IPK 3,60 memungkinkan beban SKS maksimal",
+      "IPK ≥ 3,00 dapat ambil 24 SKS",
+      "Pasal 20 + Pasal 31"
+    ]
+  },
+  {
+    "query_id": "PED-G-019",
+    "query": "Mahasiswa Untad terbukti membantu rekannya mengerjakan soal ujian. Termasuk kategori pelanggaran apa tindakan tersebut dan sanksi apa yang dapat dijatuhkan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 36 ayat 4 + Pasal 43 + Pasal 44",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 36 ayat 4 dan Pasal 44, membantu mengerjakan soal ujian orang lain termasuk dalam kategori pelanggaran akademik (sistem perjokian dilarang). Kategori pelanggarannya adalah pelanggaran akademik sedang atau berat tergantung konteks. Sanksinya berupa pencabutan hak/izin mengikuti kegiatan akademik untuk sementara (maksimal 2 semester) untuk pelanggaran sedang, atau pemecatan untuk pelanggaran berat.",
+    "expected_key_facts": [
+      "dikategorikan pelanggaran akademik",
+      "sistem perjokian dilarang Pasal 36 ayat 4",
+      "sanksi sedang: dicabut hak akademik sementara max 2 semester",
+      "sanksi berat: pemecatan",
+      "Pasal 43 + Pasal 44"
+    ]
+  },
+  {
+    "query_id": "PED-G-020",
+    "query": "Seorang mahasiswa Untad ingin pindah program studi antar fakultas. Apa saja syarat dan prosedur yang harus dipenuhinya berdasarkan Pedoman Akademik 2023-2024?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 66 perpindahan + Pasal 67 prosedur pindah",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Persyaratan pindah studi antar fakultas di Untad meliputi: memenuhi persyaratan akademik seperti jumlah SKS dan IPK minimum yang ditetapkan untuk masa studi tertentu (misal 2 semester min 24 SKS dengan IPK ≥ 2,00). Prosedurnya: mahasiswa mengajukan permohonan, mendapat rekomendasi dari prodi asal, diteruskan ke fakultas, kemudian menyerahkan berkas ke BAKP untuk registrasi ulang dengan nomor induk yang disesuaikan.",
+    "expected_key_facts": [
+      "memenuhi syarat akademik SKS dan IPK minimum",
+      "rekomendasi dari prodi asal",
+      "persetujuan pimpinan fakultas tujuan",
+      "berkas diserahkan ke BAKP",
+      "Pasal 66-67"
+    ]
+  },
+  {
+    "query_id": "PED-G-021",
+    "query": "Mahasiswa Untad yang mengikuti seminar internasional sebagai penulis dan presenter ingin mendapatkan pengakuan akademik. Ketentuan apa yang mengatur hal ini dan apa implikasinya terhadap beban SKS?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 51 ayat 9 + Pasal 40 MBKM",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 51 ayat 9, mahasiswa yang mengikuti seminar nasional/internasional sebagai penulis dan presenter dapat dibebaskan dari kewajiban tertentu yang setara. Hal ini dikaitkan dengan mekanisme MBKM (Pasal 40) di mana kegiatan ilmiah dapat dikonversi dan direkognisi sebagai mata kuliah oleh program studi. Implikasinya, mahasiswa berpotensi mendapat pengakuan kredit SKS dari kegiatan tersebut sesuai kebijakan program studi.",
+    "expected_key_facts": [
+      "Pasal 51 ayat 9: seminar internasional sebagai penulis dan presenter dapat dibebaskan dari kewajiban setara",
+      "dikaitkan dengan mekanisme konversi MBKM Pasal 40",
+      "program studi yang melakukan konversi SKS",
+      "implikasi: pengakuan kredit SKS"
+    ]
+  },
+  {
+    "query_id": "PED-G-022",
+    "query": "Berapa jumlah kepanitian pada Ujian Terbuka/Promosi Doktor di Universitas Tadulako dan siapa saja anggotanya?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 72 ayat 1e Ujian Terbuka Promosi Doktor",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Kepanitian Ujian Terbuka/Promosi Doktor di Untad berjumlah 8 orang, terdiri dari: (1) Ketua merangkap penguji, (2) Sekretaris merangkap penguji, (3) Penguji Eksternal, (4) Promotor merangkap penguji, (5) Ko-promotor merangkap penguji, (6) Penguji utama (1 orang), (7-8) Penguji anggota (2 orang).",
+    "expected_key_facts": [
+      "8 orang kepanitian",
+      "Ketua merangkap penguji",
+      "Sekretaris merangkap penguji",
+      "Penguji Eksternal",
+      "Promotor dan Ko-promotor",
+      "1 Penguji utama + 2 Penguji anggota",
+      "Pasal 72 ayat 1e"
+    ]
+  },
+  {
+    "query_id": "PED-G-023",
+    "query": "Apa yang dimaksud dengan Semester Antara menurut Pedoman Akademik Universitas Tadulako 2023-2024, dan apa tujuan diselenggarakannya?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 30 Semester Antara",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Semester Antara adalah satuan kegiatan akademik yang diselenggarakan di antara semester genap dan semester ganjil, setara dengan semester reguler. Tujuan diselenggarakannya semester antara adalah untuk memberikan peluang kepada mahasiswa mempercepat masa studinya, mengulang mata kuliah yang belum lulus, atau memperbaiki nilai mata kuliah sebelumnya.",
+    "expected_key_facts": [
+      "diselenggarakan antara semester genap dan ganjil",
+      "setara semester reguler",
+      "tujuan: mempercepat masa studi",
+      "tujuan: mengulang atau memperbaiki nilai mata kuliah"
+    ]
+  },
+  {
+    "query_id": "PED-G-024",
+    "query": "Berapa jumlah SKS minimum yang harus telah ditempuh mahasiswa Program Sarjana Untad untuk dapat mengikuti ujian tugas akhir atau skripsi?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 59 Ujian Tugas Akhir/Skripsi/Tesis/Disertasi",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mahasiswa Program Sarjana Untad harus telah menempuh minimal 138 SKS untuk dapat mengikuti ujian tugas akhir/skripsi.",
+    "expected_key_facts": [
+      "minimal 138 SKS",
+      "syarat ujian tugas akhir/skripsi Program Sarjana",
+      "Pasal 59"
+    ]
+  },
+  {
+    "query_id": "PED-G-025",
+    "query": "Apa saja persyaratan yang harus dipenuhi mahasiswa Program Doktor untuk dapat dinyatakan lulus di Universitas Tadulako?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "BUKU-PEDOMAN-DAN-PERATURAN-AKADEMIK-UNIVERSITAS-TADULAKO-TA-2023-2024",
+    "source_section": "Pasal 61 ayat 2 Lulusan Program Doktor",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Persyaratan kelulusan Program Doktor di Untad meliputi: telah menyelesaikan sejumlah mata kuliah yang dipersyaratkan, lulus ujian kualifikasi, lulus ujian disertasi terbuka (Promosi Doktor), tidak melakukan plagiarisme, dan memenuhi syarat publikasi ilmiah yang ditetapkan yaitu minimal satu artikel di jurnal internasional bereputasi (terindeks Scopus atau WoS).",
+    "expected_key_facts": [
+      "lulus ujian kualifikasi",
+      "lulus ujian disertasi terbuka/Promosi Doktor",
+      "tidak plagiarisme",
+      "publikasi minimal 1 artikel jurnal internasional bereputasi Scopus/WoS",
+      "Pasal 61 ayat 2"
+    ]
+  }
+]

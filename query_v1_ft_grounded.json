@@ -1,0 +1,382 @@
+[
+    {
+    "query_id": "FT-G-001",
+    "query": "Berapa persen kehadiran minimum yang disyaratkan mahasiswa Fakultas Teknik Untad untuk dapat mengikuti ujian semester?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 40 Syarat Mengikuti Ujian Semester",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mahasiswa Fakultas Teknik Untad harus memenuhi kehadiran minimal 75% dari 16 kali tatap muka selama 1 semester untuk dapat mengikuti ujian semester.",
+    "expected_key_facts": [
+      "75%",
+      "dari 16 kali tatap muka",
+      "Pasal 40"
+    ]
+  },
+  {
+    "query_id": "FT-G-002",
+    "query": "Berapa masa studi maksimal Program Sarjana di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 18 Masa Studi",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Masa studi maksimal Program Sarjana di Fakultas Teknik Untad adalah 5 tahun ditambah 2 tahun perpanjangan (total 7 tahun).",
+    "expected_key_facts": [
+      "paling lama 5 tahun plus 2 tahun",
+      "total maksimal 7 tahun",
+      "Pasal 18"
+    ]
+  },
+  {
+    "query_id": "FT-G-003",
+    "query": "Berapa jumlah minimal SKS yang harus sudah ditempuh mahasiswa S1 Fakultas Teknik Untad untuk dapat mengajukan seminar proposal skripsi?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 45 Seminar Proposal bagian A",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Mahasiswa S1 Fatek Untad harus sudah menempuh minimal 125 SKS untuk dapat mengajukan seminar proposal skripsi.",
+    "expected_key_facts": [
+      "minimal 125 SKS",
+      "Pasal 45 Seminar Proposal bagian A"
+    ]
+  },
+  {
+    "query_id": "FT-G-004",
+    "query": "Berapa hari kalender batas akhir pendaftaran wisuda setelah yudisium di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "factual_lookup",
+    "category_label": "Factual Lookup",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 53 Surat Keterangan Lulus dan Pendaftaran Wisuda",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Pendaftaran wisuda di Fatek Untad dilakukan paling lambat 30 hari kalender setelah yudisium.",
+    "expected_key_facts": [
+      "paling lambat 30 hari kalender",
+      "setelah yudisium",
+      "Pasal 53"
+    ]
+  },
+  {
+    "query_id": "FT-G-005",
+    "query": "Apa yang dimaksud dengan Cuti Akademik menurut Panduan Akademik Fakultas Teknik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 12 Cuti Akademik",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Cuti Akademik adalah penghentian studi sementara untuk tidak mengikuti segala bentuk kegiatan akademik dengan izin Rektor yang secara resmi dalam tenggang waktu tertentu.",
+    "expected_key_facts": [
+      "penghentian studi sementara",
+      "tidak mengikuti kegiatan akademik",
+      "dengan izin Rektor",
+      "Pasal 12"
+    ]
+  },
+  {
+    "query_id": "FT-G-006",
+    "query": "Apa yang dimaksud dengan Sidang Sarjana menurut Panduan Akademik Fakultas Teknik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 49 Sidang Sarjana",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Sidang Sarjana adalah ujian akhir penutup studi yang harus ditempuh oleh mahasiswa dalam bentuk ujian komprehensif. Sidang sarjana (ujian tugas akhir) merupakan persyaratan wajib untuk memperoleh gelar sarjana.",
+    "expected_key_facts": [
+      "ujian akhir penutup studi",
+      "bentuk ujian komprehensif",
+      "persyaratan memperoleh gelar sarjana",
+      "Pasal 49"
+    ]
+  },
+  {
+    "query_id": "FT-G-007",
+    "query": "Apa yang dimaksud dengan Semester Antara di Fakultas Teknik Untad dan kapan diselenggarakan?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 32 Semester Antara",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Semester Antara di Fatek Untad adalah satuan kegiatan akademik yang diselenggarakan di antara semester genap dan semester ganjil, yang ekivalen dengan semester genap dan semester gasal. Diselenggarakan untuk memberikan peluang kepada mahasiswa mempercepat masa studi.",
+    "expected_key_facts": [
+      "diselenggarakan antara semester genap dan ganjil",
+      "untuk mempercepat masa studi",
+      "ekivalen dengan semester reguler",
+      "Pasal 32"
+    ]
+  },
+  {
+    "query_id": "FT-G-008",
+    "query": "Apa saja prosedur penyelenggaraan sidang sarjana di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 50 Penyelenggaraan Sidang Sarjana",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Prosedur sidang sarjana di Fatek Untad: (1) sidang dilaksanakan oleh jurusan atas usul koordinator prodi, dipimpin Ketua Jurusan; (2) mahasiswa mengajukan permohonan sidang dengan melengkapi persyaratan; (3) jurusan menetapkan jadwal dan tim penguji; (4) pelaksanaan ujian komprehensif oleh tim penguji; (5) pengumuman hasil; (6) yudisium dilakukan oleh ketua panitia ujian atas nama Dekan.",
+    "expected_key_facts": [
+      "dilaksanakan oleh jurusan, dipimpin Ketua Jurusan",
+      "mahasiswa mengajukan permohonan dengan syarat lengkap",
+      "jurusan menetapkan jadwal dan penguji",
+      "diakhiri yudisium atas nama Dekan",
+      "Pasal 50"
+    ]
+  },
+  {
+    "query_id": "FT-G-009",
+    "query": "Bagaimana prosedur registrasi administrasi dan registrasi akademik mahasiswa di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 10 Registrasi Administrasi dan Registrasi Akademik",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Registrasi administrasi adalah proses memperoleh hak sebagai mahasiswa pada semester berjalan, meliputi pembayaran biaya pendidikan dan pemenuhan persyaratan administrasi. Registrasi akademik adalah pengisian rencana studi pada SIAKAD. Keduanya harus dilakukan setiap awal semester secara berurutan: administrasi terlebih dahulu, kemudian akademik.",
+    "expected_key_facts": [
+      "registrasi administrasi: bayar biaya pendidikan dan syarat administrasi",
+      "registrasi akademik: isi rencana studi di SIAKAD",
+      "dilakukan setiap awal semester",
+      "administrasi dulu baru akademik",
+      "Pasal 10"
+    ]
+  },
+  {
+    "query_id": "FT-G-010",
+    "query": "Apa saja hal yang menjadi persyaratan mahasiswa dalam melakukan kliring di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 48 Kliring",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Persyaratan kliring mahasiswa Fatek Untad meliputi: (1) mengisi daftar riwayat hidup; (2) melampirkan persyaratan administrasi seperti tanda terima sumbangan alumni dan dokumen lainnya yang ditetapkan; (3) memastikan semua kewajiban akademik dan administrasi telah diselesaikan sebelum proses kliring.",
+    "expected_key_facts": [
+      "mengisi daftar riwayat hidup",
+      "tanda terima sumbangan alumni",
+      "semua kewajiban akademik dan administrasi diselesaikan",
+      "Pasal 48"
+    ]
+  },
+  {
+    "query_id": "FT-G-011",
+    "query": "Bagaimana mekanisme evaluasi kemajuan studi dan drop out mahasiswa S1 di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "procedural",
+    "category_label": "Procedural",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 19 Evaluasi Kemajuan Studi Mahasiswa dan Drop Out",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Evaluasi kemajuan studi mahasiswa S1 dan D4 dilakukan oleh ketua prodi per semester untuk mengukur kelayakan keberlanjutan studi. Mahasiswa yang tidak memenuhi standar kemajuan studi (misalnya IPK terlalu rendah atau beban SKS tidak tercapai) dapat diberikan surat peringatan atau dalam kasus ekstrem dikenai drop out sesuai ketentuan yang berlaku.",
+    "expected_key_facts": [
+      "dilakukan oleh ketua prodi per semester",
+      "mengukur kelayakan keberlanjutan studi",
+      "dapat berujung surat peringatan atau drop out",
+      "Pasal 19"
+    ]
+  },
+  {
+    "query_id": "FT-G-012",
+    "query": "Apa saja syarat-syarat pembimbing skripsi di Fakultas Teknik Untad berdasarkan Panduan Akademik 2023-2024?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 44 Pembimbing bagian A",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan SK Rektor No.6067/UN28/KP/2018, syarat pembimbing skripsi di Fatek Untad: mahasiswa dibimbing oleh 1 atau 2 orang pembimbing. Pembimbing utama (1) harus memiliki jabatan fungsional minimal Lektor dengan pendidikan S2, atau jabatan fungsional Asisten Ahli dengan pendidikan S3. Pembimbing pendamping (jika ada) memiliki kualifikasi yang ditetapkan.",
+    "expected_key_facts": [
+      "1 atau 2 pembimbing",
+      "pembimbing utama: min Lektor+S2 atau Asisten Ahli+S3",
+      "dasar: SK Rektor No.6067/UN28/KP/2018",
+      "Pasal 44"
+    ]
+  },
+  {
+    "query_id": "FT-G-013",
+    "query": "Apa syarat-syarat yang harus dipenuhi mahasiswa untuk dapat mengajukan seminar hasil di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 46 Seminar Hasil bagian A",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Syarat seminar hasil di Fatek Untad: (1) mahasiswa memprogram mata kuliah seminar hasil/tugas akhir di KRS semester tersebut; (2) telah selesai seminar proposal; (3) memenuhi persyaratan administrasi yang ditetapkan jurusan/prodi.",
+    "expected_key_facts": [
+      "memprogram MK seminar hasil di KRS",
+      "telah selesai seminar proposal",
+      "memenuhi syarat administrasi jurusan",
+      "Pasal 46 bagian A"
+    ]
+  },
+  {
+    "query_id": "FT-G-014",
+    "query": "Bagaimana predikat kelulusan Program Sarjana di Fakultas Teknik Untad ditentukan berdasarkan IPK?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 56 Predikat Kelulusan",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Predikat kelulusan Program Sarjana di Fatek Untad: IPK > 3,50 dengan masa studi ≤ 4 tahun = predikat pujian; IPK 3,01–3,50 = sangat memuaskan; IPK 2,76–3,00 = memuaskan.",
+    "expected_key_facts": [
+      "IPK > 3,50 dan masa studi ≤ 4 tahun = pujian",
+      "IPK 3,01–3,50 = sangat memuaskan",
+      "IPK 2,76–3,00 = memuaskan",
+      "Pasal 56"
+    ]
+  },
+  {
+    "query_id": "FT-G-015",
+    "query": "Mahasiswa S1 Fatek Untad ingin mengajukan seminar proposal. Ia telah menempuh 128 SKS namun belum mengambil mata kuliah Metode Penelitian. Apakah ia dapat mengajukan seminar proposal dan apa dasar ketentuannya?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 45 Seminar Proposal bagian A + Pasal 43 Ketentuan Tugas Akhir",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 45, syarat seminar proposal adalah telah menempuh minimal 125 SKS dan memenuhi syarat lainnya. Mahasiswa tersebut telah menempuh 128 SKS sehingga memenuhi syarat SKS. Namun perlu dikonfirmasi apakah Metode Penelitian merupakan prasyarat wajib seminar proposal di prodi tersebut. Jika tidak ada ketentuan eksplisit bahwa Metode Penelitian adalah prasyarat seminar proposal, maka mahasiswa dapat mengajukan seminar proposal selama syarat SKS dan administrasi terpenuhi.",
+    "expected_key_facts": [
+      "128 SKS > 125 SKS minimum, syarat SKS terpenuhi",
+      "Metode Penelitian tidak disebutkan sebagai prasyarat eksplisit seminar proposal di Pasal 45",
+      "jika tidak ada prasyarat eksplisit, dapat mengajukan seminar proposal",
+      "Pasal 45 bagian A"
+    ]
+  },
+  {
+    "query_id": "FT-G-016",
+    "query": "Seorang mahasiswa S1 Fatek Untad memiliki IPK 3,60 dan menyelesaikan studi dalam 4 tahun 2 bulan. Predikat kelulusan apa yang diperolehnya, dan apakah ia berpeluang menjadi wisudawan terbaik?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 56 Predikat Kelulusan + Pasal 57 Wisudawan Terbaik",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 56, predikat pujian diberikan jika IPK > 3,50 dan masa studi ≤ 4 tahun. Mahasiswa dengan IPK 3,60 memenuhi syarat IPK. Namun masa studi 4 tahun 2 bulan melebihi batas maksimal 4 tahun untuk predikat pujian. Oleh karena itu, predikat yang diperoleh adalah sangat memuaskan (IPK 3,01–3,50 atau IPK > 3,50 tapi masa studi > 4 tahun). Untuk menjadi wisudawan terbaik (Pasal 57), ditentukan berdasarkan masa studi dan IPK, sehingga masa studi yang lebih panjang dari pesaing dapat mengurangi peluangnya.",
+    "expected_key_facts": [
+      "IPK 3,60 memenuhi syarat IPK untuk pujian",
+      "masa studi 4 tahun 2 bulan melebihi batas 4 tahun untuk pujian",
+      "predikat: sangat memuaskan",
+      "peluang wisudawan terbaik berkurang karena masa studi lebih panjang",
+      "Pasal 56 + Pasal 57"
+    ]
+  },
+  {
+    "query_id": "FT-G-017",
+    "query": "Lulusan D3 yang ingin melanjutkan ke S1 di Fakultas Teknik Untad melalui alih jenjang harus memenuhi persyaratan apa, dan bagaimana prosesnya?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 14 Alih Jenjang dan RPL + Pasal 2 Sistem Penerimaan Mahasiswa Baru",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 14, lulusan D3 dapat melanjutkan ke S1/D4 melalui proses alih jenjang. Persyaratan meliputi: lulus program D3 dengan IPK minimum yang ditetapkan, melalui proses seleksi penerimaan alih jenjang, dan mengikuti aturan konversi mata kuliah. Proses alih jenjang dilakukan melalui penerimaan resmi di Fatek Untad, dan nilai/SKS yang dapat diakui dari D3 ditentukan melalui konversi mata kuliah oleh tim yang dibentuk dekan.",
+    "expected_key_facts": [
+      "lulusan D3 dapat alih jenjang ke S1/D4",
+      "melalui seleksi penerimaan resmi",
+      "IPK minimum yang ditetapkan",
+      "konversi mata kuliah oleh tim dekan",
+      "Pasal 14"
+    ]
+  },
+  {
+    "query_id": "FT-G-018",
+    "query": "Seorang dosen Fatek Untad ingin menjadi pembimbing skripsi bagi mahasiswa S1. Persyaratan jabatan fungsional apa yang harus dipenuhi, dan berapa jumlah mahasiswa bimbingan yang diperbolehkan?",
+    "query_type": "grounded",
+    "category": "multi_hop_reasoning",
+    "category_label": "Multi-hop Reasoning",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 44 Pembimbing bagian A syarat + jumlah bimbingan",
+    "expected_answer_exists": true,
+    "difficulty": "hard",
+    "plausibility": null,
+    "expected_answer": "Berdasarkan Pasal 44 dan SK Rektor No.6067/UN28/KP/2018, pembimbing utama skripsi di Fatek harus memiliki jabatan minimal Lektor dengan pendidikan S2, atau Asisten Ahli dengan pendidikan S3. Untuk jumlah mahasiswa bimbingan bersamaan, panduan tidak menetapkan batas eksplisit, namun secara umum mengacu pada ketentuan universitas yang berlaku.",
+    "expected_key_facts": [
+      "pembimbing utama: min Lektor+S2 atau Asisten Ahli+S3",
+      "dasar: SK Rektor No.6067/UN28/KP/2018",
+      "batas jumlah bimbingan tidak ditetapkan eksplisit dalam panduan",
+      "Pasal 44"
+    ]
+  },
+  {
+    "query_id": "FT-G-019",
+    "query": "Apa yang dimaksud dengan Yudisium menurut Panduan Akademik Fakultas Teknik Untad 2023-2024?",
+    "query_type": "grounded",
+    "category": "definitional",
+    "category_label": "Definitional",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 52 Pelaksanaan Yudisium",
+    "expected_answer_exists": true,
+    "difficulty": "easy",
+    "plausibility": null,
+    "expected_answer": "Yudisium adalah proses penetapan kelulusan mahasiswa yang dilaksanakan oleh ketua panitia ujian atas nama Dekan setelah mahasiswa dinyatakan lulus sidang sarjana. Yudisium merupakan pernyataan resmi bahwa mahasiswa telah memenuhi seluruh persyaratan akademik untuk memperoleh gelar sarjana.",
+    "expected_key_facts": [
+      "penetapan kelulusan mahasiswa",
+      "dilaksanakan oleh ketua panitia ujian atas nama Dekan",
+      "setelah lulus sidang sarjana",
+      "Pasal 52"
+    ]
+  },
+  {
+    "query_id": "FT-G-020",
+    "query": "Apa saja persyaratan yang harus dipenuhi seseorang untuk dapat mengikuti program Rekognisi Pembelajaran Lampau (RPL) di Fakultas Teknik Untad?",
+    "query_type": "grounded",
+    "category": "eligibility_criteria",
+    "category_label": "Eligibility/Criteria",
+    "source_document": "PANDUAN-AKADEMIK-FATEK-2023-2024",
+    "source_section": "Pasal 14 Alih Jenjang dan RPL ayat 3",
+    "expected_answer_exists": true,
+    "difficulty": "medium",
+    "plausibility": null,
+    "expected_answer": "Persyaratan RPL di Fatek Untad meliputi: memiliki pengalaman kerja yang relevan dengan bidang studi yang dipilih, mengajukan permohonan resmi ke program studi, menyerahkan portofolio pengalaman kerja dan dokumen pendukung, serta mengikuti proses asesmen yang dilakukan oleh tim asesor yang dibentuk oleh dekan untuk menilai kesesuaian kompetensi yang dimiliki dengan CPL program studi.",
+    "expected_key_facts": [
+      "memiliki pengalaman kerja relevan",
+      "mengajukan permohonan ke program studi",
+      "menyerahkan portofolio dan dokumen pendukung",
+      "mengikuti asesmen oleh tim asesor yang dibentuk dekan",
+      "Pasal 14 ayat 3"
+    ]
+  }
+]
