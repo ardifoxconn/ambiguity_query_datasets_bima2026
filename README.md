@@ -17,11 +17,7 @@ The dataset is designed to support the following research objectives:
 2. **Evaluation framework critique** — providing empirical evidence for the inadequacy of aggregate faithfulness metrics as a sole evaluation signal, and motivating a three-dimensional framework (response type + faithfulness score + refusal calibration).
 3. **Foundation for failure pattern analysis** - the grounded/adversarial split and difficulty taxonomy in this dataset are designed to support downstream mapping of query ambiguity to retrieval, fusion, and generation failure points.
 
-This dataset accompanies two research papers currently in preparation:
-
-> *Ardiansyah, R. et al. (in prep.). Perilaku Sistem Fusion-RAG pada Query Grounded dan Adversarial: Analisis Empiris pada Dokumen Institusional Berbahasa Indonesia.* 
-
-> *Ardiansyah, R. et al. (in prep.). Are Faithfulness Metrics Sufficient for RAG Evaluation? Evidence from Adversarial Query Analysis on Indonesian Institutional Documents.* 
+*NOTE :* This dataset accompanies two research papers currently in preparation.
 
 ---
 
